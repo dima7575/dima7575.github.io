@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes text {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: rgb(51, 97, 249);
+    }
+
+    20% {
+        color: rgb(53, 110, 234);
+    }
+
+    30% {
+        color: rgb(100, 188, 242);
+    }
+
+    40% {
+        color: rgb(0, 225, 250);
+    }
+
+    100% {
+        color: rgb(0, 225, 255);
+    }
+}
+
+.anim {
+    animation-name: fon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 300px;
+    margin: auto;
+    animation-direction: alternate;
+    padding: 30px;
+}
+
+@keyframes fon {
+    0% {
+        background-color: rgb(4, 4, 5);
+        transform: translateY(0);
+    }
+
+    10% {
+        background-color: rgb(72, 63, 63);
+        transform: translateY(10);
+    }
+
+    20% {
+        background-color: rgb(101, 92, 92);
+        transform: translateY(20);
+    }
+
+    30% {
+        background-color: rgb(136, 128, 128);
+        transform: translateY(30);
+    }
+
+    40% {
+        background-color: rgb(192, 182, 182);
+        transform: translateY(100%);
+        width: 500px;
+    }
+
+    50% {
+        border-radius: 50%;
+        transform: translateY(75vh) rotate(360deg);
+    }
+}
+body{
+margin: 0;
+min-height: 100vh;
+animation-name: new;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+
+@keyframes new {
+    0% {
+        background-color: rgb(218, 243, 57);
+
+    }
+
+    100% {
+        background-color: rgb(247, 247, 119);
+
+    }
+}
