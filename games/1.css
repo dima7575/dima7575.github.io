@@ -1,0 +1,67 @@
+img {
+    width: 100%
+}
+
+.logo {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.text,
+.image {
+    width: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.history,
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about {
+    width: 200px;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 900;
+}
+
+.minecraft {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-image: radial-gradient(circle, #a7ff00, #97ff00, #84ff03, #6fff0b, #54ff15, #00f768, #00ed93, #00e1b0, #00c6db, #00a4ff, #0078ff, #0b00ff);
+}
+
+body {
+    margin: 0;
+}
+.ROBLOX{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right top, #fd0090, #ff3e5e, #ff752d, #f4a500, #cbcd00, #bccd00, #adcd00, #9dcc00, #b6a700, #c47f00, #c95200, #c40b0b);
+}
+.nfs{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: radial-gradient(circle, #000000, #1c0a13, #2b1123, #371738, #3e2052, #472159, #512260, #5b2266, #6a1753, #721040, #73132d, #6f1c1c);
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fbeafb;
+    /* новий темний градієнт */
+    background-image: radial-gradient(circle, #272151, #341947, #3c113c, #410930, #420324, #47041d, #4a0816, #4b0f0d, #511c06, #552901, #553700, #534400);
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    text-shadow: 0px 10px 15px violet, 0px 15px 15px black;
+}
